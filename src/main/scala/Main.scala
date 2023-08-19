@@ -1,6 +1,6 @@
 object Main {
   def main(args: Array[String]): Unit = {
-    val csvFilePath = "src/main/resources/data/DS_members.csv"
+    val csvFilePath = "src/main/resources/data/members.csv"
     val destinationFolder = "src/output"
 
     try {
