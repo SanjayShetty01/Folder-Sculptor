@@ -5,18 +5,19 @@
     justify-content: center;
     height: 100vh; /* 100% of viewport height */
     text-align: center;
+    background-color: whitesmoke;
   
 }
 
 #heading-text {
-  color:black;
+  color:lightslategray;
   letter-spacing: .1em;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:60px;
 }
 
 #animated-description {
-  color:blueviolet;
+  color:coral;
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden; /* Hide overflowed text */
   letter-spacing: .15em;
@@ -46,7 +47,7 @@
   
 
 #letsGoButton{
-  background-color: #007bff;
+  background-color: black;
   border: none;
   color: aliceblue;
   border-radius: 10px;
@@ -57,5 +58,5 @@
 }
 
 #letsGoButton:hover{
-  background-color: #0056b3;
+  background-color: brown;
 }
