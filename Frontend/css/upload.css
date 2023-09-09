@@ -1,0 +1,12 @@
+#dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#progressbar {
+    width: 0;
+    height: 20px;
+    background-color: #007bff;
+}
