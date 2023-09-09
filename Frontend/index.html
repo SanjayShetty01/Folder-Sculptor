@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSV to Zip Converter</title>
+    <title>Folder Creator</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <input type="file" id="csvFile" accept=".csv">
-    <button onclick="uploadCSV()">Upload CSV</button>
-    <div id="progress">Progress: 0%</div>
-    <a id="downloadLink" style="display: none" download="output.zip">Download ZIP</a>
+    <div id="app-container">
+        <h1 id = "heading-text">Folder Creator</h1>
+
+        <p id="animated-description" > </p>
+
+        <button id="letsGoButton">Let's Go!</button>
+    </div>
+    <script src="js/animateDescription.js"></script>
 </body>
 </html>

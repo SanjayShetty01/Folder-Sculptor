@@ -1,0 +1,61 @@
+#app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of viewport height */
+    text-align: center;
+  
+}
+
+#heading-text {
+  color:black;
+  letter-spacing: .1em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:60px;
+}
+
+#animated-description {
+  color:blueviolet;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowed text */
+  letter-spacing: .15em;
+  border-right: 5px solid #333; /* Create a blinking cursor effect */
+  animation: typing 2s steps(40, end), blink-caret 0.5s step-end infinite;
+  font-size: 50px;
+  margin: 10px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 65%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #ed600e;
+    }
+  }
+  
+
+#letsGoButton{
+  background-color: #007bff;
+  border: none;
+  color: aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 1em;;
+  font-size:large;
+  margin-top: 20vh;  
+}
+
+#letsGoButton:hover{
+  background-color: #0056b3;
+}
