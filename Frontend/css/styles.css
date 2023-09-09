@@ -55,8 +55,10 @@
   padding: 1em;;
   font-size:large;
   margin-top: 20vh;  
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 #letsGoButton:hover{
   background-color: brown;
+  transform: scale(1.05);
 }
