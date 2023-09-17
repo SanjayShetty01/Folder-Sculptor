@@ -1,10 +1,8 @@
 package services
-
 import com.github.tototoshi.csv.*
-
 import java.io.File
 
-object CsvImporter {
+object DataImporter {
 
   /**
    * Imports CSV data from a file.

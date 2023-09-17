@@ -1,5 +1,4 @@
 package services
-
 import java.io.File
 
 object TeamMemberCreator {

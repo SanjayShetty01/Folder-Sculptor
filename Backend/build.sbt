@@ -7,5 +7,11 @@ lazy val root = (project in file("."))
     name := "FolderCreator"
   )
 
-libraryDependencies += "com.github.tototoshi" %% "scala-csv" % "1.3.10"
+val http4sVersion = "0.23.23"
 
+libraryDependencies ++= Seq(
+  "org.http4s" %% "http4s-ember-client" % http4sVersion,
+  "org.http4s" %% "http4s-ember-server" % http4sVersion,
+  "org.http4s" %% "http4s-dsl"          % http4sVersion,
+  "com.github.tototoshi" %% "scala-csv" % "1.3.10"
+)
