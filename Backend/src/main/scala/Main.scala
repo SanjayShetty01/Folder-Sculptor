@@ -1,3 +1,5 @@
+import services.{CsvImporter, TeamMemberExtractor}
+
 object Main {
   def main(args: Array[String]): Unit = {
     val csvFilePath = "src/main/resources/data/members.csv"

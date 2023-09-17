@@ -1,4 +1,7 @@
-import com.github.tototoshi.csv._
+package services
+
+import com.github.tototoshi.csv.*
+
 import java.io.File
 
 object CsvImporter {

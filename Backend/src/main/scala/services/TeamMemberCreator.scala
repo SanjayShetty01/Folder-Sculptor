@@ -1,6 +1,8 @@
+package services
+
 import java.io.File
 
-object TeamMemberExtractor {
+object TeamMemberCreator {
 
   /**
    * Extracts the team members from the CSV data.
