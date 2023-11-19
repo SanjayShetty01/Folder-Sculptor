@@ -9,5 +9,6 @@ lazy val root = project
     scalaVersion := scala3Version,
 
     libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test,
-    libraryDependencies += "com.lihaoyi" %% "cask" % "0.9.1"
+    libraryDependencies += "com.lihaoyi" %% "cask" % "0.9.1",
+    libraryDependencies += "com.github.tototoshi" %% "scala-csv" % "1.3.10"
   )
